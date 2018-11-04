@@ -1,0 +1,297 @@
+.wrapper{
+	width:60%;
+	margin:auto;
+}
+
+/*
+header sheet starts
+*/
+header a{
+	text-decoration: none;
+	color: white;
+}
+header>div>ul a{
+display: block;
+padding: 10px 40px 10px 40px;
+}
+header>div>ul a:hover{
+background: #00ffff;
+}
+header>div>h1 a{
+	font-size: 0px;
+	float: left;
+}
+header>div>ul{
+	list-style: none;
+	float: right;
+	margin-top: 40px;
+}
+header>div>ul>li{
+	float: left;
+	color: white;
+	background: #000;
+}
+header{
+	position: fixed;
+	width: 100%;	
+}
+
+/*
+header sheet ends
+*/
+/*
+main styles sheet starts
+*/
+main{
+	clear: both;
+}
+
+/*
+join-more sheet starts
+*/
+.join-more{
+	background: -webkit-linear-gradient(50deg, #fff 40%, #0ff 40%);
+	background: -o-linear-gradient(50deg, #fff 40%, #0ff 40%);
+	background: linear-gradient(140deg, #fff 40%, #0ff 40%);
+	padding-top: 250px; 
+}
+.join-more img 
+{
+	display: inline-block;
+	float: left;
+}
+.join-more h2{
+	font-size: 40px;
+	padding-bottom: 60px;
+	width: 400px;
+	margin-left: 40px;
+}
+
+
+.join-more h2:first-letter{
+text-transform: capitalize;
+}
+
+.join-more .para
+{
+	display: inline-block;
+	float: right;
+
+}
+.join-more .para span{
+ font-style: italic;
+ color:#fff;
+}
+.join-more .para ul{
+	list-style: none;
+	font-size: 15px;
+}
+.join-more .para li{
+	padding-bottom:10px;
+	color: #fff;
+}
+
+.join-more .para ul li:last-child{
+	padding-bottom:60px;
+}
+
+
+/*
+join-more sheet ends
+*/
+
+/*
+what-you-get sheet starts
+*/
+.what-you-get{
+	background: #000;
+	color: #fff;
+	padding-bottom: 100px;
+	padding-top: 100px;
+
+}
+.what-you-get h2:first-letter{
+text-transform: capitalize;
+}
+
+.what-you-get .para ul{
+	list-style: none;
+	font-size: 15px;
+
+}
+.what-you-get .para li{
+	padding-bottom:10px;
+}
+.what-you-get .para ul li:last-child{
+	padding-bottom:60px;
+}
+.what-you-get .para h2
+{
+	font-size: 40px;
+	padding-bottom: 60px;
+}
+.what-you-get .para{
+	float: left;
+
+}
+.what-you-get .para a{
+	text-decoration: none;
+	padding: 10px 40px 10px 40px;
+	color: #fff;
+	text-transform: uppercase;
+	background:#0ff;
+}
+.what-you-get .para a:hover{
+background: #000;
+}
+.what-you-get span{
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.slider ul{
+	list-style: none;
+
+}
+.slider {
+float: right;
+text-align: center;
+}
+.slider .image li{
+	float: right;
+	padding-left: 10px;	
+	padding-bottom: 10px;
+}
+.dots li{
+	display: inline-block;
+	padding-left: 5px;
+}
+.image{
+	padding-bottom: 20px;
+}
+/*
+what-you-get sheet ends
+*/
+/*
+some what sheet starts
+*/
+.some-words{
+	clear: both;
+	background:-webkit-linear-gradient(rgba(0,255,255,0.6), rgba(0,255,255,0.6)),url("https://picsum.photos/800/800/?random");
+	background:-o-linear-gradient(rgba(0,255,255,0.6), rgba(0,255,255,0.6)),url("https://picsum.photos/800/800/?random");
+	background:linear-gradient(rgba(0,255,255,0.6), rgba(0,255,255,0.6)),url("https://picsum.photos/800/800/?random");
+	background-repeat: no-repeat;	
+	background-size: cover;
+	padding-top: 150px;
+		
+}
+
+.some-words h3{
+	font-size: 40px;
+	padding-bottom: 25px;
+	color: #fff;
+	text-align: center;
+}
+.some-words h3:first-letter{
+text-transform: capitalize;
+}
+.some-words p{
+	color: #000;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.some-words img{
+	margin-top: 40px;
+	float: left;
+
+}
+.content
+{
+	position: relative;
+}
+.comments{
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 40px;
+	position: absolute;
+	bottom:15%;
+	right:15%;
+
+}
+.some-words ul{
+	list-style: none;
+}
+.some-words span{
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.sdots li{
+	display: inline-block;
+	padding-left: 5px;
+
+}
+.sdots{
+	position: absolute;
+	bottom:8%;
+	right:36%; 
+}
+/*
+some what sheet ends
+*/
+.join-us{
+	background: #000;
+	text-align: center;
+	color: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.join-us h3{
+	font-size: 30px;
+	padding-bottom: 25px;
+}
+.join-us p{
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.join-us form{
+	margin-top: 50px;
+}
+.join-us input[type="submit"]{
+	padding: 10px 40px 10px 40px;
+	background: #fff;
+	color:#0ff;
+	border:0px;
+}
+.join-us input[type="submit"]:hover{
+	background: #000;
+}
+.join-us input[type="email"]{
+	width:300px;
+	height: 30px;
+	padding:3px;
+	background: rgb(102, 102, 102);
+	border:0px;
+}
+.join-us input[type="email"]::placeholder{
+	color: #fff;
+}
+footer{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+footer img{
+	margin-bottom: 10px;
+}
+footer p{
+	font-size: 13px;
+}
+footer a{
+	text-decoration: none;
+	color: #0ff;
+}
