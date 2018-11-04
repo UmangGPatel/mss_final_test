@@ -79,7 +79,7 @@ text-transform: capitalize;
 .face-photo{
 	background: url("https://picsum.photos/800/800/?random");
 	background-size: cover;
-	background-repeat: none;
+	background-repeat: no-repeat;
 	width:100%;
 	height:100vh; 
 }
