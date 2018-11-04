@@ -13,7 +13,15 @@ body{
 	background:#000;
 	color: #fff; 
 }
-
+h2{
+	font-size: 2em;
+	text-transform: capitalize;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f1f1f1;
+	width:200px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
 
 
 
@@ -82,4 +90,187 @@ text-transform: capitalize;
 }
 .john-doe p{
 	font-size: 1.2em;
+}
+
+
+
+
+.my-name{
+	padding-top: 100px;
+}
+.my-name p{
+ color: #a6a6a6;
+ text-align: justify;
+ margin-bottom: 30px;
+}
+
+
+.my-skill h3{
+    font-size: 2em;
+	text-transform: capitalize;
+	padding-bottom: 20px;
+}
+
+.my-skill h4{
+   font-size: 1.2em;
+	text-transform: capitalize;
+	padding-bottom: 20px;	
+	padding-top: 20px;
+	color: #a6a6a6;
+}
+
+.progress
+{
+	width: 100%;
+	height: 30px;
+	background:#fff;
+	margin-bottom: 20px;	
+	
+}
+
+.p1{
+ background: #595959;
+ width:90%; 
+ height: 30px;
+}
+.p2{
+ background: #595959;
+ width:80%; 
+ height: 30px;
+}
+.p3{
+ background: #595959;
+ width:75%; 
+ height: 30px;
+}
+
+
+
+
+
+.list li{
+display: inline-block;
+padding: 30px 80px 20px 80px;
+}
+.list{
+	margin-top: 50px;
+	color:#000;
+	background: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.list h5{
+	font-size: 1.8em;
+}
+.list p{
+	color: #000;
+	font-size: 1.2em;
+	text-transform: capitalize;
+}
+.list li:hover{
+opacity: 0.5;
+}
+
+.my-skill a{
+	padding: 20px;
+	background: #fff;
+	color: #000;
+	font-size: 1.2em;
+	text-transform: capitalize;
+	width:180px;
+	display: inline-block;
+}
+
+.my-skill a:hover{
+	opacity: 0.5;
+}
+
+
+.my-price h3{
+	font-size: 2em;
+	text-transform: capitalize;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-top: 80px;
+}
+.block{
+	float: left;
+	width: 49%;
+	text-align: center;
+	margin-right: 10px;
+	opacity: 0.7;
+}
+
+.block ul li{
+	background: #e6e6e6;
+	font-size: 1.2em;
+	color: #000;
+	border-bottom: 1px solid  #a6a6a6;
+	padding:20px;
+	
+}
+
+.block ul li:first-child{
+	background: #4d4d4d;
+	font-size: 2em;
+	padding: 30px;
+	color: #fff;
+}
+
+.block:hover{
+opacity: 1;
+}
+
+.block h4{
+		font-size:2em; 
+}
+.block span{
+	color:#b3b3b3;
+}
+.block ul li:last-child{
+	background: #cccccc;
+}
+.block button{
+	padding:15px 20px 15px 20px;
+	border:0px;
+}
+.block button:hover{
+	background: #000;
+	color: #fff;
+}
+
+
+
+
+
+.my-rep h3{
+	font-size: 2em;
+	text-transform: capitalize;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-top: 80px;
+}
+
+.my-rep img{
+border-radius: 50%;
+float: left;
+}
+.rep-com p{
+ text-align: left;
+ color: #a6a6a6;
+display: inline-block;
+padding-left: 50px;
+padding-top: 20px;
+width: 250px;
+}
+.rep-com p:after{
+	clear: left;
+
+}
+
+.rep-com{
+	padding:20px;
+}
+.rep-com span{
+	font-size: 1.3em;
 }

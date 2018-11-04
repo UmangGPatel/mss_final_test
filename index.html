@@ -43,16 +43,16 @@
 <body>
   <div class="container">
     <!-- header starts -->
-    <header id="header">
+    <header>
           <ul class="nav-bar">
                <li>
                 <a href="index.html" title="home"><img src="https://picsum.photos/100/150/?random" alt="Jone Doe"></a>
                </li>
                <li>
-                <a href="#" title="home"><i class="fa fa-home"></i><p>home</p></a>
+                <a href="#home" title="home"><i class="fa fa-home"></i><p>home</p></a>
                </li>
                <li>
-                <a href="#" title="about"><i class="fa fa-user"></i><p>about</p></a>
+                <a href="#about" title="about"><i class="fa fa-user"></i><p>about</p></a>
                </li>
                <li>
                 <a href="#" title="photos"><i class="fa fa-eye"></i><p>photos</p></a>
@@ -66,7 +66,7 @@
     <!-- main starts -->
     <main>
       <!-- john-doe starts -->
-      <div class="john-doe">
+      <div class="john-doe" id="home">
         <div class="wrapper">
           <div class="face-photo">
               <h1>
@@ -80,45 +80,49 @@
       </div>
       <!-- john-doe ends -->
       <!-- my-name starts -->
-      <div class="my-name">
+      <div class="my-name" id="about">
         <div class="wrapper">
           <h2> my name</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quo sed, vitae magnam nulla debitis nobis corporis dolores quaerat temporibus ut, iusto possimus a ratione. Provident distinctio nobis fuga assumenda?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad unde consectetur sunt, earum, maxime tenetur accusantium eligendi nobis veniam quia error illo, perspiciatis doloremque quas, maiores rerum recusandae et dolorum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quo sed, vitae magnam nulla debitis nobis corporis dolores quaerat temporibus ut, iusto poss
+          imus a ratione. Provident distinctio nobis fuga assumenda?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad unde consectetur sunt, earum, maxime tenetur accusantium eligendi nobis veniam quia error illo, perspiciatis doloremqlorem ue quas, maiores rerum recusandae et dolorum 
+          adipisicing elit. Voluptatum quo sed, vitae magnam nulla debitis nobis corporis dolores quaerat temporibus ut, iusto poss
+          imus a ratione. Provident distinctio nobis fuga assumenda?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad unde consectetur sunt, earum, maxime tenetur accusantium eligendi nobis veniam quia error illo, perspiciatis doloremqlorem ue quas, maiores rerum recusandae et dolorum 
+        </p>
           <div class="my-skill">
-            <h2>my skill</h2>
-            <h3>
+            <h3>my skill</h3>
+            <h4>
               photography
-            </h3>
-            <div class="progress p1">
-              <div></div>
+            </h4>
+            <div class="progress">
+              <div class="p1"></div>
             </div>
-            <h3>
+            <h4>
               web design
-            </h3>
-            <div class="progress p2">
-              <div></div>
+            </h4>
+            <div class="progress">
+              <div class="p2"></div>
             </div>
-            <h3>
+            <h4>
               photoshop
-            </h3>
-            <div class="progress p3">
-              <div></div>
+            </h4>
+            <div class="progress">
+              <div class="p3"></div>
             </div>
-            <ul>
+            <ul class="list">
               <li>
-                <h4>11+</h4>
+                <h5>11+</h5>
                 <p>partners</p>
               </li>
               <li>
-                <h4>55+</h4>
+                <h5>55+</h5>
                 <p>Projects done</p>
               </li>
               <li>
-                <h4>89+</h4>
+                <h5>89+</h5>
                 <p>happy client</p>
               </li>
               <li>
-                <h4>150+</h4>
+                <h5>150+</h5>
                 <p>meeting</p>
               </li>
             </ul>
@@ -127,8 +131,8 @@
                 download resume
             </a>
           </div>
-          <div class="my-price">
-              <h2>My price</h2>  
+          <div class="my-price cf">
+              <h3>My price</h3>  
               <div class="block">
                   <ul>
                     <li>Basic</li>
@@ -137,7 +141,7 @@
                     <li>5GB Storage</li>
                     <li>Mail Support</li>
                     <li>
-                      <h2>$ 10</h2>
+                      <h4>$ 10</h4>
                       <span>per month</span>
                     </li>
                     <li>
@@ -153,7 +157,7 @@
                     <li>50GB Storage</li>
                     <li>Endless Support</li>
                     <li>
-                      <h2>$ 25</h2>
+                      <h4>$ 25</h4>
                       <span>per month</span>
                     </li>
                     <li>
@@ -163,13 +167,15 @@
               </div>
           </div>
           <div class="my-rep">
-              <h3>My Reputation</h3>  
-              <img src="https://picsum.photos/350/100/?random" alt="Chris">
-               <p><span>Chris Fox.</span>CEO at Mighty Schools.</p>
-              <p>Jane Doe saved us from a web disaster.</p>
-              <img src="https://picsum.photos/350/100/?random" alt="Rebecca">
-               <p><span>Rebecca Flex.</span>CEO at Mighty Schools.</p>
-              <p>Jane Doe saved us from a web disaster.</p>
+              <h3>My Reputation</h3>
+              <div class="rep-com cf">  
+                  <img src="https://picsum.photos/100/100/?random" alt="Chris">
+                   <p><span>Chris Fox.</span>CEO at Mighty Schools.Jane Doe saved us from a web disaster.</p>
+              </div>
+              <div class="rep-com cf">
+                  <img src="https://picsum.photos/100/100/?random" alt="Rebecca">
+                   <p><span>Rebecca Flex.</span>CEO at Mighty Schools Jane Doe saved us from a web disaster.</p>
+              </div>
           </div>
         </div>  
       </div>
@@ -178,6 +184,7 @@
       <!-- my-photos starts -->
       <div class="my-photos ">
         <div class="wrapper">
+          <h2>my photos</h2>
           <div class="leftimg">
             <img src="https://picsum.photos/350/100/?random" alt="watery">
             <img src="https://picsum.photos/350/100/?random" alt="nature">
