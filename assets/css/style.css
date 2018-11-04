@@ -274,3 +274,19 @@ width: 250px;
 .rep-com span{
 	font-size: 1.3em;
 }
+
+
+
+
+
+.my-photos{
+	margin-top: 30px;
+}
+.leftimg img,.rightimg img{
+	display: block;
+	padding: 5px;
+
+}
+.leftimg {
+	float: left;
+}
