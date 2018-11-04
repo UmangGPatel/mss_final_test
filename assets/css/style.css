@@ -14,6 +14,56 @@ body{
 	color: #fff; 
 }
 
+
+
+
+
+header p{
+	font-size: 1em;
+   text-transform: uppercase;
+   padding-top: 20px;
+}
+header .nav-bar i{
+	padding-top: 20px;
+	font-size: 40px;	
+	
+}
+.nav-bar{
+	width:100px;
+	position: fixed;
+	left:0px;
+	top:0px;
+}
+
+.nav-bar li{
+	text-align: center;
+}
+header li{
+	padding: 10px;	
+}
+header ul li:first-child{
+	padding:0px;
+}
+
+header .nav-bar li{
+	opacity: 0.5;
+}
+header li:hover{
+	opacity: 1;
+	background: #000;
+}
+header .nav-bar {
+	background:	 #737373; 
+	height:100%;
+}
+
+
+
+
+
+
+
+
 .john-doe{
 text-align: center;
 text-transform: capitalize;
