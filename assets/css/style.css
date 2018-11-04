@@ -290,3 +290,40 @@ width: 250px;
 .leftimg {
 	float: left;
 }
+
+
+
+.contact-me{
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+.contact-me h2{
+	margin-bottom: 40px;
+}
+.contact-me i{
+	font-size: 2em;
+}
+.contact-me p{
+	padding: 20px;
+	text-transform: capitalize;
+	font-size: 1.2em;
+}
+.contact-me a,.para{
+	color: #a6a6a6;
+}
+.contact-me input{
+display: block;
+margin-bottom: 20px;
+width: 100%;
+border:0px;
+padding: 15px;
+}
+ .contact-me button{
+ 	padding: 15px 20px 15px 20px;
+ 	border:0px;
+ }
+ .contact-me button:hover{
+	color:#fff;
+	background: #000;
+ }
