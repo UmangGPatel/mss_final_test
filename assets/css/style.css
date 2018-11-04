@@ -327,3 +327,27 @@ padding: 15px;
 	color:#fff;
 	background: #000;
  }
+
+
+footer{
+	margin-top: 80px;
+	margin-bottom:80px;
+}
+footer .wrapper i{
+	font-size: 1.8em;
+	padding: 2px;
+	color: #8c8c8c;
+}
+footer p{
+	font-size: 1.1em;
+	margin-top: 20px;
+	color: #8c8c8c;
+}
+footer p a{
+	font-size: 1.1em;
+	margin-top: 20px;
+	color: #8c8c8c;
+	text-decoration:underline;
+}
+
+
